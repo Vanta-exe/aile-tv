@@ -1,0 +1,36 @@
+# --- Gizli bilgiler (ASLA repoya girmez) ---
+local.properties
+*.jks
+*.keystore
+keystore.properties
+signing/
+*.pem
+*_private.key
+config_signing_key*
+.env
+.env.*
+
+# --- Android / Gradle ---
+.gradle/
+build/
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.iml
+.idea/
+.kotlin/
+
+# --- Python araçları ---
+__pycache__/
+*.pyc
+.venv/
+
+# --- İşletim sistemi ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Claude Code yerel ayarları (skills paylaşılır, kişisel ayarlar paylaşılmaz) ---
+.claude/settings.local.json
